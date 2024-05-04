@@ -45,7 +45,23 @@ void MainWindow::setMaximizedFlag(bool flag)
     isMaximized = flag;
 }
 
-
+void MainWindow::onButtonMaximize()
+{
+    QIcon icon;
+    if (isMaximized) {
+        showNormal();
+        isMaximized = false;
+        icon.addFile(":/icons/fullscreen_icon.svg", QSize(18, 18));
+        ui->buttonMaximize->setIcon(icon);
+        ui->window->setStyleSheet("QFrame {background-color: rgb(28, 31, 41); color: white; border: 1px solid rgb(47, 50, 60); border-radius: 10px;}");
+    } else {
+        showMaximized();
+        isMaximized = true;
+        icon.addFile(":/icons/fullscreen_exit_icon.svg", QSize(18, 18));
+        ui->buttonMaximize->setIcon(icon);
+        ui->window->setStyleSheet("QFrame {background-color: rgb(28, 31, 41); color: white;}");
+    }
+}
 
 void MainWindow::onCursorPositionChange()
 {
