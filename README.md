@@ -1,1 +1,1 @@
-Simple Text Editor for Windows on Qt6 C++
+Simple rich text editor for Windows on Qt6 C++
