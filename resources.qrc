@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/close_icon.svg</file>
+        <file>icons/fullscreen_exit_icon.svg</file>
+        <file>icons/fullscreen_icon.svg</file>
+        <file>icons/remove_icon.svg</file>
+        <file>icons/format_align_center_black.svg</file>
+        <file>icons/format_align_justify_black.svg</file>
+        <file>icons/format_align_left_black.svg</file>
+        <file>icons/format_align_right_black.svg</file>
+        <file>icons/format_bold_black.svg</file>
+        <file>icons/format_italic_black.svg</file>
+        <file>icons/format_list_bulleted_black.svg</file>
+        <file>icons/format_list_numbered_black.svg</file>
+        <file>icons/format_underlined_black.svg</file>
+        <file>icons/format_color_text_black.svg</file>
+        <file>icons/strikethrough_s_black.svg</file>
+        <file>icons/subscript_black.svg</file>
+        <file>icons/superscript_black.svg</file>
+        <file>icon.ico</file>
+        <file>icons/down_arrow.svg</file>
+        <file>icons/paint_palette.svg</file>
+        <file>icons/rubber.svg</file>
+        <file>icons/format_color_reset_black.svg</file>
+        <file>icons/palette_black.svg</file>
+        <file>icons/color_fill.svg</file>
+        <file>icons/lower_roman_list.svg</file>
+        <file>icons/upper_roman_list.svg</file>
+        <file>icons/numbered_list.svg</file>
+        <file>icons/filled_circle.svg</file>
+        <file>icons/circle.svg</file>
+        <file>icons/square.svg</file>
+        <file>icons/lower_alpha_list.svg</file>
+        <file>icons/upper_alpha_list.svg</file>
+    </qresource>
+</RCC>
